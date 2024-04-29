@@ -1,0 +1,101 @@
+{
+"bill": {
+"id": 12916357,
+"code": null,
+"amount": "123.0",
+"installments": 1,
+"status": "pending",
+"seen_at": null,
+"billing_at": null,
+"due_at": "2024-04-30T23:59:59.000-03:00",
+"url": "https://sandbox-app.vindi.com.br/customer/bills/12916357?token=eb6b4ca5-b3e8-49a4-b216-0692b46d0bcb",
+"created_at": "2024-04-29T11:49:24.000-03:00",
+"updated_at": "2024-04-29T11:49:24.000-03:00",
+"bill_items": [
+{
+"id": 21278388,
+"amount": "123.0",
+"quantity": null,
+"pricing_range_id": null,
+"description": "",
+"pricing_schema": null,
+"product": {
+"id": 222815,
+"name": "PRODUTO PET",
+"code": null
+},
+"product_item": null,
+"discount": null
+}
+],
+"charges": [
+{
+"id": 12489072,
+"amount": "123.0",
+"status": "pending",
+"due_at": "2024-04-30T23:59:59.000-03:00",
+"paid_at": null,
+"installments": 1,
+"attempt_count": 1,
+"next_attempt": null,
+"print_url": "https://intermediador-sandbox.yapay.com.br/orders/bolepix/3ff058b31bea09c0ca40ad8ac35a13de",
+"created_at": "2024-04-29T11:49:24.000-03:00",
+"updated_at": "2024-04-29T11:49:31.000-03:00",
+"last_transaction": {
+"id": 14832486,
+"transaction_type": "charge",
+"status": "waiting",
+"amount": "123.0",
+"installments": 1,
+"gateway_message": "Aguardando Pagamento",
+"gateway_response_code": null,
+"gateway_authorization": "",
+"gateway_transaction_id": "4ea94156-b653-45cd-b286-b0123cf7cbca",
+"gateway_response_fields": {
+"typeable_barcode": "34191090160853183293285334580009897020000012300",
+"qrcode_path": "https://d3qiiqeqvrl56p.cloudfront.net/sandbox/2024/04/29/itau/N101085317_qrcode.svg",
+"qrcode_original_path": "00020101021226860014BR.GOV.BCB.PIX2564spi-h.itau.com.br/pix/qr/v2/e8772e8f-3e31-4766-831c-c3ce8f453b635204000053039865802BR5920CARVALHEIRA GERALDES6009SAO PAULO62070503***63048DAC",
+"print_url": "https://intermediador-sandbox.yapay.com.br/orders/bolepix/3ff058b31bea09c0ca40ad8ac35a13de",
+"token_transaction": "3ff058b31bea09c0ca40ad8ac35a13de",
+"transaction_id": 920851
+},
+"fraud_detector_score": null,
+"fraud_detector_status": null,
+"fraud_detector_id": null,
+"created_at": "2024-04-29T11:49:24.000-03:00",
+"gateway": {
+"id": 5572,
+"connector": "yapay"
+},
+"payment_profile": null
+},
+"payment_method": {
+"id": 10482,
+"public_name": "Bolepix",
+"name": "Bolepix ",
+"code": "pix_bank_slip",
+"type": "PaymentMethod::PixBankSlip"
+}
+}
+],
+"bill_affiliates": [],
+"customer": {
+"id": 1819502,
+"name": "Laís Araujo Fernandez",
+"email": "araujoplais87@vindi.com.br",
+"code": null
+},
+"period": null,
+"subscription": null,
+"metadata": {},
+"payment_profile": null,
+"payment_condition": {
+"penalty_fee_value": null,
+"penalty_fee_type": "percentage",
+"daily_fee_value": null,
+"daily_fee_type": "percentage",
+"after_due_days": null,
+"payment_condition_discounts": []
+}
+}
+}
