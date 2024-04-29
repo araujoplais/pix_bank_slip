@@ -1,0 +1,117 @@
+{
+  "event": {
+    "type": "bill_canceled",
+    "created_at": "2024-04-29T19:25:13.947-03:00",
+    "data": {
+      "bill": {
+        "id": 12916357,
+        "code": null,
+        "amount": "0.0",
+        "installments": 1,
+        "status": "canceled",
+        "seen_at": "2024-04-29T17:28:30.000-03:00",
+        "billing_at": null,
+        "due_at": "2024-04-30T23:59:59.000-03:00",
+        "url": "https://sandbox-app.vindi.com.br/customer/bills/12916357?token=eb6b4ca5-b3e8-49a4-b216-0692b46d0bcb",
+        "created_at": "2024-04-29T11:49:24.000-03:00",
+        "updated_at": "2024-04-29T19:25:13.000-03:00",
+        "bill_items": [
+          {
+            "id": 21278388,
+            "amount": "123.0",
+            "quantity": null,
+            "pricing_range_id": null,
+            "description": "",
+            "pricing_schema": null,
+            "product": {
+              "id": 222815,
+              "name": "PRODUTO PET",
+              "code": null
+            },
+            "product_item": null,
+            "discount": null
+          }
+        ],
+        "charges": [
+          {
+            "id": 12489072,
+            "amount": "123.0",
+            "status": "canceled",
+            "due_at": "2024-04-30T23:59:59.000-03:00",
+            "paid_at": null,
+            "installments": 1,
+            "attempt_count": 1,
+            "next_attempt": null,
+            "print_url": null,
+            "created_at": "2024-04-29T11:49:24.000-03:00",
+            "updated_at": "2024-04-29T19:25:13.000-03:00",
+            "last_transaction": {
+              "id": 14833742,
+              "transaction_type": "void",
+              "status": "success",
+              "amount": "123.0",
+              "installments": null,
+              "gateway_message": "Cancelada",
+              "gateway_response_code": null,
+              "gateway_authorization": "920851",
+              "gateway_transaction_id": "110820c3-ca18-4eb6-ba41-e3223f138352",
+              "gateway_response_fields": {
+                "transaction_id": 920851,
+                "refunds": [
+                  {
+                    "id": 405766,
+                    "value": 123,
+                    "observation": "Cancelamento",
+                    "status_id": 157,
+                    "status_name": "Finalizado",
+                    "refund_kind_id": 53,
+                    "refund_kind_name": "refund_kind_full",
+                    "refund_method_id": 55,
+                    "refund_method_name": "refund_method_balance",
+                    "created_at": 1714429513
+                  }
+                ],
+                "refund_id": 405766
+              },
+              "fraud_detector_score": null,
+              "fraud_detector_status": null,
+              "fraud_detector_id": null,
+              "created_at": "2024-04-29T19:25:13.000-03:00",
+              "gateway": {
+                "id": 5572,
+                "connector": "yapay"
+              },
+              "payment_profile": null
+            },
+            "payment_method": {
+              "id": 10482,
+              "public_name": "Bolepix",
+              "name": "Bolepix ",
+              "code": "pix_bank_slip",
+              "type": "PaymentMethod::PixBankSlip"
+            }
+          }
+        ],
+        "bill_affiliates": [],
+        "customer": {
+          "id": 1819502,
+          "name": "Laís Araujo Fernandez",
+          "email": "araujoplais87@vindi.com.br",
+          "code": null
+        },
+        "period": null,
+        "subscription": null,
+        "metadata": {},
+        "payment_profile": null,
+        "payment_condition": {
+          "penalty_fee_value": null,
+          "penalty_fee_type": "percentage",
+          "daily_fee_value": null,
+          "daily_fee_type": "percentage",
+          "after_due_days": null,
+          "payment_condition_discounts": []
+        }
+      }
+    }
+  }
+}
