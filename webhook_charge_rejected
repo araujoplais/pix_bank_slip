@@ -1,0 +1,59 @@
+{
+  "event": {
+    "type": "charge_rejected",
+    "created_at": "2024-04-29T20:08:12.279-03:00",
+    "data": {
+      "charge": {
+        "id": 12489486,
+        "amount": "123.0",
+        "status": "pending",
+        "due_at": "2024-04-30T23:59:59.000-03:00",
+        "paid_at": null,
+        "installments": 1,
+        "attempt_count": 1,
+        "next_attempt": null,
+        "print_url": null,
+        "created_at": "2024-04-29T20:08:11.000-03:00",
+        "updated_at": "2024-04-29T20:08:12.000-03:00",
+        "last_transaction": {
+          "id": 14833827,
+          "transaction_type": "charge",
+          "status": "rejected",
+          "amount": "123.0",
+          "installments": 1,
+          "gateway_message": "E-mail não é válido",
+          "gateway_response_code": "3",
+          "gateway_authorization": "",
+          "gateway_transaction_id": "b4acd0cb-835f-467c-8386-b04341c1721f",
+          "gateway_response_fields": null,
+          "fraud_detector_score": null,
+          "fraud_detector_status": null,
+          "fraud_detector_id": null,
+          "created_at": "2024-04-29T20:08:11.000-03:00",
+          "gateway": {
+            "id": 5572,
+            "connector": "yapay"
+          },
+          "payment_profile": null
+        },
+        "payment_method": {
+          "id": 10482,
+          "public_name": "Bolepix",
+          "name": "Bolepix ",
+          "code": "pix_bank_slip",
+          "type": "PaymentMethod::PixBankSlip"
+        },
+        "bill": {
+          "id": 12916773,
+          "code": null
+        },
+        "customer": {
+          "id": 1819502,
+          "name": "Laís Araujo Fernandez",
+          "email": "",
+          "code": null
+        }
+      }
+    }
+  }
+}
