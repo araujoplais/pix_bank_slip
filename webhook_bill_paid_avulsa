@@ -1,0 +1,119 @@
+{
+  "event": {
+    "type": "bill_paid",
+    "created_at": "2024-04-29T19:45:11.244-03:00",
+    "data": {
+      "bill": {
+        "id": 12916767,
+        "code": null,
+        "amount": "123.0",
+        "installments": 1,
+        "status": "paid",
+        "seen_at": null,
+        "billing_at": null,
+        "due_at": "2024-04-30T23:59:59.000-03:00",
+        "url": "https://sandbox-app.vindi.com.br/customer/bills/12916767?token=eae6a83b-34ee-401d-b2d7-86a4accea724",
+        "created_at": "2024-04-29T19:44:20.000-03:00",
+        "updated_at": "2024-04-29T19:45:11.000-03:00",
+        "bill_items": [
+          {
+            "id": 21278917,
+            "amount": "123.0",
+            "quantity": null,
+            "pricing_range_id": null,
+            "description": "",
+            "pricing_schema": null,
+            "product": {
+              "id": 222815,
+              "name": "PRODUTO PET",
+              "code": null
+            },
+            "product_item": null,
+            "discount": null
+          }
+        ],
+        "charges": [
+          {
+            "id": 12489480,
+            "amount": "123.0",
+            "status": "paid",
+            "due_at": "2024-04-30T23:59:59.000-03:00",
+            "paid_at": "2024-04-29T00:00:00.000-03:00",
+            "installments": 1,
+            "attempt_count": 2,
+            "next_attempt": null,
+            "print_url": null,
+            "created_at": "2024-04-29T19:44:20.000-03:00",
+            "updated_at": "2024-04-29T19:45:11.000-03:00",
+            "last_transaction": {
+              "id": 14833781,
+              "transaction_type": "charge",
+              "status": "success",
+              "amount": "123.0",
+              "installments": 1,
+              "gateway_message": "Aprovada",
+              "gateway_response_code": null,
+              "gateway_authorization": "920983",
+              "gateway_transaction_id": "c8d83aca-7ae4-4a87-8cce-5ccbd78e3c1d",
+              "gateway_response_fields": {
+                "typeable_barcode": "34191090160854488293285334580009197020000012300",
+                "qrcode_path": "https://d3qiiqeqvrl56p.cloudfront.net/sandbox/2024/04/29/itau/N101085447_qrcode.svg",
+                "qrcode_original_path": "00020101021226860014BR.GOV.BCB.PIX2564spi-h.itau.com.br/pix/qr/v2/e8772e8f-3e31-4766-831c-c3ce8f453b635204000053039865802BR5920CARVALHEIRA GERALDES6009SAO PAULO62070503***63048DAC",
+                "print_url": "https://intermediador-sandbox.yapay.com.br/orders/bolepix/3716f5ba7b7f0f708c2e393d9ee8b4e9",
+                "token_transaction": "3716f5ba7b7f0f708c2e393d9ee8b4e9",
+                "transaction_id": 920983,
+                "price_original": "123.0",
+                "price_payment": "123.0",
+                "payment_response": "Pagamento Manual. Administrador: Laís Araujo Fernandez",
+                "url_payment": "https://intermediador-sandbox.yapay.com.br/orders/bolepix/3716f5ba7b7f0f708c2e393d9ee8b4e9",
+                "tid": "80079",
+                "split": 1,
+                "payment_method_id": 28,
+                "payment_method_name": "Bolepix",
+                "date_payment": 1714359600,
+                "date_approval": 1714359600,
+                "paid_amount": "123.0",
+                "payment_date": "2024-04-29"
+              },
+              "fraud_detector_score": null,
+              "fraud_detector_status": null,
+              "fraud_detector_id": null,
+              "created_at": "2024-04-29T19:44:20.000-03:00",
+              "gateway": {
+                "id": 5572,
+                "connector": "yapay"
+              },
+              "payment_profile": null
+            },
+            "payment_method": {
+              "id": 10482,
+              "public_name": "Bolepix",
+              "name": "Bolepix ",
+              "code": "pix_bank_slip",
+              "type": "PaymentMethod::PixBankSlip"
+            }
+          }
+        ],
+        "bill_affiliates": [],
+        "customer": {
+          "id": 1819502,
+          "name": "Laís Araujo Fernandez",
+          "email": "araujoplais87@vindi.com.br",
+          "code": null
+        },
+        "period": null,
+        "subscription": null,
+        "metadata": {},
+        "payment_profile": null,
+        "payment_condition": {
+          "penalty_fee_value": null,
+          "penalty_fee_type": "percentage",
+          "daily_fee_value": null,
+          "daily_fee_type": "percentage",
+          "after_due_days": null,
+          "payment_condition_discounts": []
+        }
+      }
+    }
+  }
+}
