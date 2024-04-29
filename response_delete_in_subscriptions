@@ -1,0 +1,76 @@
+{
+    "subscription": {
+        "id": 915694,
+        "status": "canceled",
+        "start_at": "2024-04-29T00:00:00.000-03:00",
+        "end_at": "2024-04-29T19:28:23.000-03:00",
+        "next_billing_at": null,
+        "overdue_since": null,
+        "code": "1233",
+        "cancel_at": "2024-04-29T19:28:23.000-03:00",
+        "interval": "months",
+        "interval_count": 12,
+        "billing_trigger_type": "beginning_of_period",
+        "billing_trigger_day": 0,
+        "billing_cycles": null,
+        "installments": 1,
+        "created_at": "2024-04-29T19:02:23.000-03:00",
+        "updated_at": "2024-04-29T19:28:24.000-03:00",
+        "customer": {
+            "id": 1895947,
+            "name": "Customer Name Individual",
+            "email": "email@email.com",
+            "code": "99998341086"
+        },
+        "plan": {
+            "id": 84894,
+            "name": "Plano anual parcelado",
+            "code": "123"
+        },
+        "product_items": [
+            {
+                "id": 1265977,
+                "status": "active",
+                "uses": 1,
+                "cycles": null,
+                "quantity": 1,
+                "created_at": "2024-04-29T19:02:23.000-03:00",
+                "updated_at": "2024-04-29T19:02:23.000-03:00",
+                "product": {
+                    "id": 228273,
+                    "name": "Produto Teste",
+                    "code": "123"
+                },
+                "pricing_schema": {
+                    "id": 902115,
+                    "short_format": "R$ 233,00",
+                    "price": "233.0",
+                    "minimum_price": null,
+                    "schema_type": "flat",
+                    "pricing_ranges": [],
+                    "created_at": "2024-04-29T19:02:23.000-03:00"
+                },
+                "discounts": []
+            }
+        ],
+        "payment_method": {
+            "id": 10482,
+            "public_name": "Bolepix",
+            "name": "Bolepix ",
+            "code": "pix_bank_slip",
+            "type": "PaymentMethod::PixBankSlip"
+        },
+        "current_period": {
+            "id": 13040776,
+            "billing_at": "2024-04-29T00:00:00.000-03:00",
+            "cycle": 1,
+            "start_at": "2024-04-29T00:00:00.000-03:00",
+            "end_at": "2025-04-28T23:59:59.000-03:00",
+            "duration": 31535999
+        },
+        "metadata": {},
+        "payment_profile": null,
+        "invoice_split": false,
+        "subscription_affiliates": []
+    }
+}
