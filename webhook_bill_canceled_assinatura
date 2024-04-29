@@ -1,0 +1,146 @@
+{
+  "event": {
+    "type": "bill_canceled",
+    "created_at": "2024-04-29T19:22:12.567-03:00",
+    "data": {
+      "bill": {
+        "id": 12916760,
+        "code": null,
+        "amount": "0.0",
+        "installments": 1,
+        "status": "canceled",
+        "seen_at": null,
+        "billing_at": null,
+        "due_at": "2024-04-30T23:59:59.000-03:00",
+        "url": "https://sandbox-app.vindi.com.br/customer/bills/12916760?token=4fecf23a-89c3-4256-b10f-c27491744737",
+        "created_at": "2024-04-29T18:43:31.000-03:00",
+        "updated_at": "2024-04-29T19:22:12.000-03:00",
+        "bill_items": [
+          {
+            "id": 21278909,
+            "amount": "123.0",
+            "quantity": 1,
+            "pricing_range_id": null,
+            "description": null,
+            "pricing_schema": {
+              "id": 902103,
+              "short_format": "R$ 123,00",
+              "price": "123.0",
+              "minimum_price": null,
+              "schema_type": "flat",
+              "pricing_ranges": [],
+              "created_at": "2024-04-29T18:43:31.000-03:00"
+            },
+            "product": {
+              "id": 228273,
+              "name": "Produto Teste",
+              "code": "123"
+            },
+            "product_item": {
+              "id": 1265959,
+              "product": {
+                "id": 228273,
+                "name": "Produto Teste",
+                "code": "123"
+              }
+            },
+            "discount": null
+          }
+        ],
+        "charges": [
+          {
+            "id": 12489473,
+            "amount": "123.0",
+            "status": "canceled",
+            "due_at": "2024-04-30T23:59:59.000-03:00",
+            "paid_at": null,
+            "installments": 1,
+            "attempt_count": 1,
+            "next_attempt": null,
+            "print_url": null,
+            "created_at": "2024-04-29T18:43:31.000-03:00",
+            "updated_at": "2024-04-29T19:22:12.000-03:00",
+            "last_transaction": {
+              "id": 14833734,
+              "transaction_type": "void",
+              "status": "success",
+              "amount": "123.0",
+              "installments": null,
+              "gateway_message": "Cancelada",
+              "gateway_response_code": null,
+              "gateway_authorization": "920980",
+              "gateway_transaction_id": "43737685-2ff5-4ec6-97a6-8a537452820b",
+              "gateway_response_fields": {
+                "transaction_id": 920980,
+                "refunds": [
+                  {
+                    "id": 405765,
+                    "value": 123,
+                    "observation": "Cancelamento",
+                    "status_id": 157,
+                    "status_name": "Finalizado",
+                    "refund_kind_id": 53,
+                    "refund_kind_name": "refund_kind_full",
+                    "refund_method_id": 55,
+                    "refund_method_name": "refund_method_balance",
+                    "created_at": 1714429332
+                  }
+                ],
+                "refund_id": 405765
+              },
+              "fraud_detector_score": null,
+              "fraud_detector_status": null,
+              "fraud_detector_id": null,
+              "created_at": "2024-04-29T19:22:11.000-03:00",
+              "gateway": {
+                "id": 5572,
+                "connector": "yapay"
+              },
+              "payment_profile": null
+            },
+            "payment_method": {
+              "id": 10482,
+              "public_name": "Bolepix",
+              "name": "Bolepix ",
+              "code": "pix_bank_slip",
+              "type": "PaymentMethod::PixBankSlip"
+            }
+          }
+        ],
+        "bill_affiliates": [],
+        "customer": {
+          "id": 1819502,
+          "name": "Laís Araujo Fernandez",
+          "email": "araujoplais87@vindi.com.br",
+          "code": null
+        },
+        "period": {
+          "id": 13040761,
+          "billing_at": "2024-04-29T00:00:00.000-03:00",
+          "cycle": 1,
+          "start_at": "2024-04-29T00:00:00.000-03:00",
+          "end_at": "2024-05-28T23:59:59.000-03:00",
+          "duration": 2591999
+        },
+        "subscription": {
+          "id": 915679,
+          "code": null,
+          "plan": {
+            "id": 82076,
+            "name": "Plano mensal 48",
+            "code": null
+          },
+          "customer": {
+            "id": 1819502,
+            "name": "Laís Araujo Fernandez",
+            "email": "araujoplais87@vindi.com.br",
+            "code": null
+          }
+        },
+        "metadata": {},
+        "payment_profile": null,
+        "payment_condition": null
+      }
+    }
+  }
+}
