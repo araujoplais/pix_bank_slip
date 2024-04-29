@@ -1,0 +1,148 @@
+{
+  "event": {
+    "type": "bill_paid",
+    "created_at": "2024-04-29T19:38:17.302-03:00",
+    "data": {
+      "bill": {
+        "id": 12916759,
+        "code": null,
+        "amount": "123.0",
+        "installments": 1,
+        "status": "paid",
+        "seen_at": null,
+        "billing_at": null,
+        "due_at": "2024-04-30T23:59:59.000-03:00",
+        "url": "https://sandbox-app.vindi.com.br/customer/bills/12916759?token=05de6a8e-94dd-4f3b-bd88-e83cce16a0c0",
+        "created_at": "2024-04-29T18:42:58.000-03:00",
+        "updated_at": "2024-04-29T19:38:17.000-03:00",
+        "bill_items": [
+          {
+            "id": 21278908,
+            "amount": "123.0",
+            "quantity": 1,
+            "pricing_range_id": null,
+            "description": null,
+            "pricing_schema": {
+              "id": 902102,
+              "short_format": "R$ 123,00",
+              "price": "123.0",
+              "minimum_price": null,
+              "schema_type": "flat",
+              "pricing_ranges": [],
+              "created_at": "2024-04-29T18:42:54.000-03:00"
+            },
+            "product": {
+              "id": 228273,
+              "name": "Produto Teste",
+              "code": "123"
+            },
+            "product_item": {
+              "id": 1265958,
+              "product": {
+                "id": 228273,
+                "name": "Produto Teste",
+                "code": "123"
+              }
+            },
+            "discount": null
+          }
+        ],
+        "charges": [
+          {
+            "id": 12489472,
+            "amount": "123.0",
+            "status": "paid",
+            "due_at": "2024-04-30T23:59:59.000-03:00",
+            "paid_at": "2024-04-29T00:00:00.000-03:00",
+            "installments": 1,
+            "attempt_count": 2,
+            "next_attempt": null,
+            "print_url": null,
+            "created_at": "2024-04-29T18:42:58.000-03:00",
+            "updated_at": "2024-04-29T19:38:17.000-03:00",
+            "last_transaction": {
+              "id": 14833656,
+              "transaction_type": "charge",
+              "status": "success",
+              "amount": "123.0",
+              "installments": 1,
+              "gateway_message": "Aprovada",
+              "gateway_response_code": null,
+              "gateway_authorization": "920979",
+              "gateway_transaction_id": "6bf00f7c-8977-4eaf-808a-8bdfdc0e2d1b",
+              "gateway_response_fields": {
+                "typeable_barcode": "34191090160854447293285334580009597020000012300",
+                "qrcode_path": "https://d3qiiqeqvrl56p.cloudfront.net/sandbox/2024/04/29/itau/N101085443_qrcode.svg",
+                "qrcode_original_path": "00020101021226860014BR.GOV.BCB.PIX2564spi-h.itau.com.br/pix/qr/v2/e8772e8f-3e31-4766-831c-c3ce8f453b635204000053039865802BR5920CARVALHEIRA GERALDES6009SAO PAULO62070503***63048DAC",
+                "print_url": "https://intermediador-sandbox.yapay.com.br/orders/bolepix/1ce9b0d5af3e260d45978935d91bd33d",
+                "token_transaction": "1ce9b0d5af3e260d45978935d91bd33d",
+                "transaction_id": 920979,
+                "price_original": "123.0",
+                "price_payment": "123.0",
+                "payment_response": "Pagamento Manual. Administrador: Laís Araujo Fernandez",
+                "url_payment": "https://intermediador-sandbox.yapay.com.br/orders/bolepix/1ce9b0d5af3e260d45978935d91bd33d",
+                "tid": "80075",
+                "split": 1,
+                "payment_method_id": 28,
+                "payment_method_name": "Bolepix",
+                "date_payment": 1714359600,
+                "date_approval": 1714359600,
+                "paid_amount": "123.0",
+                "payment_date": "2024-04-29"
+              },
+              "fraud_detector_score": null,
+              "fraud_detector_status": null,
+              "fraud_detector_id": null,
+              "created_at": "2024-04-29T18:42:58.000-03:00",
+              "gateway": {
+                "id": 5572,
+                "connector": "yapay"
+              },
+              "payment_profile": null
+            },
+            "payment_method": {
+              "id": 10482,
+              "public_name": "Bolepix",
+              "name": "Bolepix ",
+              "code": "pix_bank_slip",
+              "type": "PaymentMethod::PixBankSlip"
+            }
+          }
+        ],
+        "bill_affiliates": [],
+        "customer": {
+          "id": 1819502,
+          "name": "Laís Araujo Fernandez",
+          "email": "araujoplais87@vindi.com.br",
+          "code": null
+        },
+        "period": {
+          "id": 13040760,
+          "billing_at": "2024-04-29T00:00:00.000-03:00",
+          "cycle": 1,
+          "start_at": "2024-04-29T00:00:00.000-03:00",
+          "end_at": "2024-05-28T23:59:59.000-03:00",
+          "duration": 2591999
+        },
+        "subscription": {
+          "id": 915678,
+          "code": null,
+          "plan": {
+            "id": 82018,
+            "name": "Plano mensal",
+            "code": null
+          },
+          "customer": {
+            "id": 1819502,
+            "name": "Laís Araujo Fernandez",
+            "email": "araujoplais87@vindi.com.br",
+            "code": null
+          }
+        },
+        "metadata": {},
+        "payment_profile": null,
+        "payment_condition": null
+      }
+    }
+  }
+}
