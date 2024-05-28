@@ -1,0 +1,102 @@
+{
+    "event": {
+        "type": "bill_created",
+        "created_at": "2024-05-28T17:32:52.000-03:00",
+        "data": {
+            "bill": {
+                "id": 287860000,
+                "code": "006U5000007W9SNI87",
+                "amount": "40.0",
+                "installments": 1,
+                "status": "pending",
+                "seen_at": null,
+                "billing_at": null,
+                "due_at": "2024-05-31T23:59:59.000-03:00",
+                "url": "https://app.vindi.com.br/customer/bills/287860903?token=697081a2-aa28-4d83-89f2-3ad3aa6065db",
+                "created_at": "2024-05-28T17:32:52.000-03:00",
+                "updated_at": "2024-05-28T17:36:18.000-03:00",
+                "bill_items": [
+                    {
+                        "id": 3592140700,
+                        "amount": "40.0",
+                        "quantity": null,
+                        "pricing_range_id": null,
+                        "description": null,
+                        "pricing_schema": null,
+                        "product": {
+                            "id": 936884,
+                            "name": "Produto Moove",
+                            "code": "produto_moove123"
+                        },
+                        "product_item": null,
+                        "discount": null
+                    }
+                ],
+                "charges": [
+                    {
+                        "id": 301736000,
+                        "amount": "40.0",
+                        "status": "pending",
+                        "due_at": "2024-05-31T23:59:59.000-03:00",
+                        "paid_at": null,
+                        "installments": 1,
+                        "attempt_count": 1,
+                        "next_attempt": null,
+                        "print_url": "https://intermediador.yapay.com.br/orders/pix/400bce9f9f9857ee703ad3aa6065db",
+                        "created_at": "2024-05-28T17:32:52.000-03:00",
+                        "updated_at": "2024-05-28T17:32:54.000-03:00",
+                        "last_transaction": {
+                            "id": 560173820,
+                            "transaction_type": "charge",
+                            "status": "waiting",
+                            "amount": "40.0",
+                            "installments": 1,
+                            "gateway_message": "Aguardando Pagamento",
+                            "gateway_response_code": null,
+                            "gateway_authorization": "",
+                            "gateway_transaction_id": "df86932f-a4a5-409a-8f32-d05c8a918383",
+                            "gateway_response_fields": {
+                                "qrcode_path": "https://d1q276s95tpn93.cloudfront.net/production/2024/05/28/itau/N177_qrcode.svg",
+                                "qrcode_original_path": "00020101021226770014BR.GOV.BCB.PIX2555api.itau/pix/qr/v2/272f84d5-8917-4e1901a106bff135204000053039865802BR5925YAPAY PAGAMENTOS ONLINE L6009SAO PAULO62070503***63043A79",
+                                "print_url": "https://intermediador.yapay.com.br/orders/pix/400bce9f9f9857ee7044235a3",
+                                "token_transaction": "400bce9f9f9857ee7044235a3d",
+                                "transaction_id": 158274000,
+                                "max_days_to_keep_waiting_payment": "2024-05-31T17:32:53"
+                            },
+                            "fraud_detector_score": null,
+                            "fraud_detector_status": null,
+                            "fraud_detector_id": null,
+                            "created_at": "2024-05-28T17:32:52.000-03:00",
+                            "gateway": {
+                                "id": 65918,
+                                "connector": "yapay"
+                            },
+                            "payment_profile": null
+                        },
+                        "payment_method": {
+                            "id": 66600,
+                            "public_name": "Pix",
+                            "name": "Pix",
+                            "code": "pix",
+                            "type": "PaymentMethod::Pix"
+                        }
+                    }
+                ],
+                "bill_affiliates": [],
+                "customer": {
+                    "id": 84936455,
+                    "name": "Cliente X",
+                    "email": "clientex@gmail.com",
+                    "code": "10315043987"
+                },
+                "period": null,
+                "subscription": null,
+                "metadata": {
+                    "CampaignID": "701U5000001proEasd"
+                },
+                "payment_profile": null,
+                "payment_condition": null
+            }
+        }
+    }
+}
