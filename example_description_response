@@ -1,0 +1,135 @@
+{
+    "bill": {
+        "id": 13293955,
+        "code": "24143301010469----2",
+        "amount": "500.0",
+        "installments": 1,
+        "status": "paid",
+        "seen_at": "2024-06-12T16:20:52.000-03:00",
+        "billing_at": "2024-06-12T00:00:00.000-03:00",
+        "due_at": null,
+        "url": "https://sandbox-app.vindi.com.br/customer/bills/13293955?token=42a019dc-426f-413f-9845-75f5df7d5740",
+        "created_at": "2024-06-12T16:20:37.000-03:00",
+        "updated_at": "2024-06-12T16:20:52.000-03:00",
+        "bill_items": [
+            {
+                "id": 21785370,
+                "amount": "500.0",
+                "quantity": null,
+                "pricing_range_id": null,
+                "description": "Parcela 1 de 6 no valor de R$500,00 de um total de R$3000,00.",
+                "pricing_schema": null,
+                "product": {
+                    "id": 231986,
+                    "name": "Embarcações Recreio",
+                    "code": "291"
+                },
+                "product_item": null,
+                "discount": null
+            }
+        ],
+        "charges": [
+            {
+                "id": 12846733,
+                "amount": "500.0",
+                "status": "paid",
+                "due_at": "2024-06-12T23:59:59.000-03:00",
+                "paid_at": "2024-06-12T16:20:37.000-03:00",
+                "installments": 1,
+                "attempt_count": 1,
+                "next_attempt": null,
+                "print_url": null,
+                "created_at": "2024-06-12T16:20:37.000-03:00",
+                "updated_at": "2024-06-12T16:20:37.000-03:00",
+                "last_transaction": {
+                    "id": 15328222,
+                    "transaction_type": "charge",
+                    "status": "success",
+                    "amount": "500.0",
+                    "installments": 1,
+                    "gateway_message": "Transacao aprovada",
+                    "gateway_response_code": null,
+                    "gateway_authorization": "29E8DA85FB02FA8BFCEB4FE73DEBE018",
+                    "gateway_transaction_id": "967bd465-8d82-40dd-8b4e-554ff89eb60f",
+                    "gateway_response_fields": {
+                        "nsu": "1F6150D10DCAB88D4970833600B0AC14"
+                    },
+                    "fraud_detector_score": null,
+                    "fraud_detector_status": null,
+                    "fraud_detector_id": null,
+                    "created_at": "2024-06-12T16:20:37.000-03:00",
+                    "gateway": {
+                        "id": 5638,
+                        "connector": "fake"
+                    },
+                    "payment_profile": {
+                        "id": 1364366,
+                        "holder_name": "TESTE VISA",
+                        "registry_code": null,
+                        "bank_branch": null,
+                        "bank_account": null,
+                        "card_expiration": "2030-09-30T23:59:59.000-03:00",
+                        "allow_as_fallback": true,
+                        "card_number_first_six": "444444",
+                        "card_number_last_four": "4448",
+                        "renewed_card": {
+                            "card_number_last_four": null,
+                            "card_expiration": null
+                        },
+                        "card_renewed_at": null,
+                        "token": "2989acb2-18a3-4ede-8481-7c23540c2e40",
+                        "created_at": "2024-06-11T14:29:04.000-03:00",
+                        "payment_company": {
+                            "id": 13,
+                            "name": "Visa",
+                            "code": "visa"
+                        }
+                    }
+                },
+                "payment_method": {
+                    "id": 10590,
+                    "public_name": "Cartão de crédito",
+                    "name": "Cartão de crédito",
+                    "code": "credit_card",
+                    "type": "PaymentMethod::CreditCard"
+                }
+            }
+        ],
+        "bill_affiliates": [],
+        "customer": {
+            "id": 1936794,
+            "name": "BOLD ENERGY LTDA",
+            "email": "daniela.nascimento@essor.com.br",
+            "code": null
+        },
+        "period": null,
+        "subscription": null,
+        "metadata": {
+            "numero_proposta": "24143301010469"
+        },
+        "payment_profile": {
+            "id": 1364366,
+            "holder_name": "TESTE VISA",
+            "registry_code": null,
+            "bank_branch": null,
+            "bank_account": null,
+            "card_expiration": "2030-09-30T23:59:59.000-03:00",
+            "allow_as_fallback": true,
+            "card_number_first_six": "444444",
+            "card_number_last_four": "4448",
+            "renewed_card": {
+                "card_number_last_four": null,
+                "card_expiration": null
+            },
+            "card_renewed_at": null,
+            "token": "2989acb2-18a3-4ede-8481-7c23540c2e40",
+            "created_at": "2024-06-11T14:29:04.000-03:00",
+            "payment_company": {
+                "id": 13,
+                "name": "Visa",
+                "code": "visa"
+            }
+        },
+        "payment_condition": null
+    }
+}
