@@ -1,0 +1,202 @@
+{
+    "event": {
+        "type": "bill_paid",
+        "created_at": "2024-03-05T11:29:56.000-03:00",
+        "data": {
+            "bill": {
+                "id": 269462333,
+                "code": null,
+                "amount": "50.0",
+                "installments": 1,
+                "status": "paid",
+                "seen_at": null,
+                "billing_at": null,
+                "due_at": null,
+                "url": "https://app.vindi.com.br/customer/bills/269460687?token=4197e521-eeb1-233e-b84f-23cd6528758f",
+                "created_at": "2024-03-05T11:29:53.000-03:00",
+                "updated_at": "2024-03-05T11:29:56.000-03:00",
+                "bill_items": [
+                    {
+                        "id": 336475233,
+                        "amount": "50.0",
+                        "quantity": 1,
+                        "pricing_range_id": null,
+                        "description": null,
+                        "pricing_schema": {
+                            "id": 44444233,
+                            "short_format": "R$ 50,00",
+                            "price": "50.0",
+                            "minimum_price": null,
+                            "schema_type": "flat",
+                            "pricing_ranges": [],
+                            "created_at": "2024-03-05T11:29:53.000-03:00"
+                        },
+                        "product": {
+                            "id": 936888,
+                            "name": "PDM_MD01",
+                            "code": "PDM_MD01"
+                        },
+                        "product_item": {
+                            "id": 53174440,
+                            "product": {
+                                "id": 936888,
+                                "name": "PDM_MD01",
+                                "code": "PDM_MD01"
+                            }
+                        },
+                        "discount": null
+                    }
+                ],
+                "charges": [
+                    {
+                        "id": 283768233,
+                        "amount": "50.0",
+                        "status": "paid",
+                        "due_at": "2024-03-05T23:59:59.000-03:00",
+                        "paid_at": "2024-03-05T11:29:56.000-03:00",
+                        "installments": 1,
+                        "attempt_count": 1,
+                        "next_attempt": null,
+                        "print_url": null,
+                        "created_at": "2024-03-05T11:29:53.000-03:00",
+                        "updated_at": "2024-03-05T11:29:56.000-03:00",
+                        "last_transaction": {
+                            "id": 528255384,
+                            "transaction_type": "capture",
+                            "status": "success",
+                            "amount": "50.0",
+                            "installments": 1,
+                            "gateway_message": "Success.",
+                            "gateway_response_code": null,
+                            "gateway_authorization": "11152403051233393233",
+                            "gateway_transaction_id": "ec2007fe-9478-478a-9c5f-f4ee5b249233",
+                            "gateway_response_fields": {
+                                "reference": "528255233",
+                                "tid": "11152403051126393233",
+                                "nsu": "12254233",
+                                "dateTime": "2024-03-05T11:29:55-03:00",
+                                "amount": 50.0,
+                                "cardBin": "232333",
+                                "last4": "24233",
+                                "additional": {
+                                    "gateway": "523"
+                                },
+                                "returnCode": "00",
+                                "returnMessage": "Success.",
+                                "CodRet": "00",
+                                "NumAutor": "R04523",
+                                "Msgret": "Success.",
+                                "NumPedido": "528255323",
+                                "NumSqn": "12254223",
+                                "Tid": "11152403051126393423",
+                                "Data": "20240323",
+                                "Hora": "11:29:23",
+                                "Brand": {
+                                    "Name": "Mastercard",
+                                    "returnCode": "00",
+                                    "returnMessage": "Success.",
+                                    "brandTid": "MCGJKMWPM0323",
+                                    "merchantAdviceCode": ""
+                                },
+                                "authorizationCode": "R04523"
+                            },
+                            "fraud_detector_score": null,
+                            "fraud_detector_status": null,
+                            "fraud_detector_id": null,
+                            "created_at": "2024-03-05T11:29:55.000-03:00",
+                            "gateway": {
+                                "id": 60516,
+                                "connector": "e_rede_rest"
+                            },
+                            "payment_profile": {
+                                "id": 97020567,
+                                "holder_name": "NOME PORTADOR",
+                                "registry_code": null,
+                                "bank_branch": null,
+                                "bank_account": null,
+                                "card_expiration": "2030-08-31T23:59:59.000-03:00",
+                                "allow_as_fallback": null,
+                                "card_number_first_six": "230623",
+                                "card_number_last_four": "2423",
+                                "renewed_card": {
+                                    "card_number_last_four": null,
+                                    "card_expiration": null
+                                },
+                                "card_renewed_at": null,
+                                "token": "a96b21e2-da5a-4954-b66f-4f1175f62323",
+                                "created_at": "2024-03-05T11:29:53.000-03:00",
+                                "payment_company": {
+                                    "id": 1,
+                                    "name": "MasterCard",
+                                    "code": "mastercard"
+                                }
+                            }
+                        },
+                        "payment_method": {
+                            "id": 47423,
+                            "public_name": "Cartão de crédito",
+                            "name": "Cartão de crédito",
+                            "code": "credit_card",
+                            "type": "PaymentMethod::CreditCard"
+                        }
+                    }
+                ],
+                "bill_affiliates": [],
+                "customer": {
+                    "id": 78262623,
+                    "name": "Cliente x",
+                    "email": "clientex@hotmail.com",
+                    "code": "40239073823"
+                },
+                "period": {
+                    "id": 158930223,
+                    "billing_at": "2024-03-05T00:00:00.000-03:00",
+                    "cycle": 1,
+                    "start_at": "2024-03-05T00:00:00.000-03:00",
+                    "end_at": "2024-04-04T23:59:59.000-03:00",
+                    "duration": 2678399
+                },
+                "subscription": {
+                    "id": 35384523,
+                    "code": null,
+                    "plan": {
+                        "id": 253523,
+                        "name": "Mensal",
+                        "code": "monthly"
+                    },
+                    "customer": {
+                    "id": 78262623,
+                    "name": "Cliente x",
+                    "email": "clientex@hotmail.com",
+                    "code": "40239073823"
+                    }
+                },
+                "metadata": {},
+                "payment_profile": {
+                    "id": 97020567,
+                    "holder_name": "NOME PORTADOR,
+                    "registry_code": null,
+                    "bank_branch": null,
+                    "bank_account": null,
+                    "card_expiration": "2030-08-31T23:59:59.000-03:00",
+                    "allow_as_fallback": null,
+                    "card_number_first_six": "230623",
+                    "card_number_last_four": "2423",
+                    "renewed_card": {
+                        "card_number_last_four": null,
+                        "card_expiration": null
+                    },
+                    "card_renewed_at": null,
+                    "token": "a96b21e2-da5a-4954-b66f-4f1175f62323",
+                    "created_at": "2024-03-05T11:29:53.000-03:00",
+                    "payment_company": {
+                        "id": 1,
+                        "name": "MasterCard",
+                        "code": "mastercard"
+                    }
+                },
+                "payment_condition": null
+            }
+        }
+    }
+}
