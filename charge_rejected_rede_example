@@ -1,0 +1,81 @@
+{
+    "event": {
+        "type": "charge_rejected",
+        "created_at": "2022-04-23T09:17:04.000-03:00",
+        "data": {
+            "charge": {
+                "id": 168886000,
+                "amount": "69.16",
+                "status": "pending",
+                "due_at": "2022-04-23T23:59:59.000-03:00",
+                "paid_at": null,
+                "installments": 1,
+                "attempt_count": 1,
+                "next_attempt": null,
+                "print_url": null,
+                "created_at": "2022-04-23T09:17:04.000-03:00",
+                "updated_at": "2022-05-25T19:27:06.000-03:00",
+                "last_transaction": {
+                    "id": 296086000,
+                    "transaction_type": "authorization",
+                    "status": "rejected",
+                    "amount": "69.16",
+                    "installments": 1,
+                    "gateway_message": "Unauthorized. Invalid security code.",
+                    "gateway_response_code": "119",
+                    "gateway_authorization": "",
+                    "gateway_transaction_id": "9d8bd4a6-57f6-45ea-ac49-5d5e14000000",
+                    "gateway_response_fields": null,
+                    "fraud_detector_score": null,
+                    "fraud_detector_status": null,
+                    "fraud_detector_id": null,
+                    "created_at": "2022-04-23T09:17:04.000-03:00",
+                    "gateway": {
+                        "id": 33936,
+                        "connector": "e_rede_rest"
+                    },
+                    "payment_profile": {
+                        "id": 42027000,
+                        "holder_name": "cliente x",
+                        "registry_code": null,
+                        "bank_branch": null,
+                        "bank_account": null,
+                        "card_expiration": "2026-12-31T23:59:59.000-03:00",
+                        "allow_as_fallback": null,
+                        "card_number_first_six": "544000",
+                        "card_number_last_four": "8000",
+                        "renewed_card": {
+                            "card_number_last_four": null,
+                            "card_expiration": null
+                        },
+                        "card_renewed_at": null,
+                        "token": "72c54cf7-c2e1-43c2-b36e-0093f4000000",
+                        "created_at": "2021-09-23T11:30:45.000-03:00",
+                        "payment_company": {
+                            "id": 1,
+                            "name": "MasterCard",
+                            "code": "mastercard"
+                        }
+                    }
+                },
+                "payment_method": {
+                    "id": 35000,
+                    "public_name": "Cartão de crédito",
+                    "name": "Cartão de crédito",
+                    "code": "credit_card",
+                    "type": "PaymentMethod::CreditCard"
+                },
+                "bill": {
+                    "id": 152545000,
+                    "code": null
+                },
+                "customer": {
+                    "id": 23184937,
+                    "name": "cliente x",
+                    "email": "clientex@gmail.com",
+                    "code": null
+                }
+            }
+        }
+    }
+}
