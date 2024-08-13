@@ -1,0 +1,59 @@
+{
+  "event": {
+    "type": "charge_rejected",
+    "created_at": "2024-07-11T18:32:48.273-03:00",
+    "data": {
+      "charge": {
+        "id": 13075793,
+        "amount": "2123.0",
+        "status": "pending",
+        "due_at": "2024-07-12T23:59:59.000-03:00",
+        "paid_at": null,
+        "installments": 1,
+        "attempt_count": 1,
+        "next_attempt": null,
+        "print_url": null,
+        "created_at": "2024-07-11T18:32:47.000-03:00",
+        "updated_at": "2024-07-11T18:32:48.000-03:00",
+        "last_transaction": {
+          "id": 15611816,
+          "transaction_type": "charge",
+          "status": "rejected",
+          "amount": "2123.0",
+          "installments": 1,
+          "gateway_message": "Cep não possui o tamanho esperado (8 caracteres)",
+          "gateway_response_code": "2",
+          "gateway_authorization": "",
+          "gateway_transaction_id": "200a5fba-534f-43e1-824d-c228ce2b6100",
+          "gateway_response_fields": null,
+          "fraud_detector_score": null,
+          "fraud_detector_status": null,
+          "fraud_detector_id": null,
+          "created_at": "2024-07-11T18:32:47.000-03:00",
+          "gateway": {
+            "id": 5645,
+            "connector": "yapay"
+          },
+          "payment_profile": null
+        },
+        "payment_method": {
+          "id": 10601,
+          "public_name": "Pix",
+          "name": "Pix",
+          "code": "pix",
+          "type": "PaymentMethod::Pix"
+        },
+        "bill": {
+          "id": 13536810,
+          "code": null
+        },
+        "customer": {
+          "id": 1933839,
+          "name": "Laís Araujo Fernandez",
+          "email": "lais.fernandez@vindi.com.br",
+          "code": null
+        }
+      }
+    }
+  }
+}
