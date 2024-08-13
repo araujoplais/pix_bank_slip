@@ -1,0 +1,112 @@
+{
+  "event": {
+    "type": "bill_paid",
+    "created_at": "2024-07-16T16:08:31.984-03:00",
+    "data": {
+      "bill": {
+        "id": 13576543,
+        "code": null,
+        "amount": "10.99",
+        "installments": 1,
+        "status": "paid",
+        "seen_at": null,
+        "billing_at": null,
+        "due_at": "2024-07-17T23:59:59.000-03:00",
+        "url": "https://sandbox-app.vindi.com.br/customer/bills/13576543?token=068c7721-0070-4cfd-a868-e5265895fb46",
+        "created_at": "2024-07-16T16:04:06.000-03:00",
+        "updated_at": "2024-07-16T16:08:31.000-03:00",
+        "bill_items": [
+          {
+            "id": 22172887,
+            "amount": "10.99",
+            "quantity": null,
+            "pricing_range_id": null,
+            "description": "",
+            "pricing_schema": null,
+            "product": {
+              "id": 216790,
+              "name": "PREÇO FIXO ",
+              "code": null
+            },
+            "product_item": null,
+            "discount": null
+          }
+        ],
+        "charges": [
+          {
+            "id": 13113417,
+            "amount": "10.99",
+            "status": "paid",
+            "due_at": "2024-07-17T23:59:59.000-03:00",
+            "paid_at": "2024-07-16T00:00:00.000-03:00",
+            "installments": 1,
+            "attempt_count": 2,
+            "next_attempt": null,
+            "print_url": null,
+            "created_at": "2024-07-16T16:04:06.000-03:00",
+            "updated_at": "2024-07-16T16:08:31.000-03:00",
+            "last_transaction": {
+              "id": 15655089,
+              "transaction_type": "charge",
+              "status": "success",
+              "amount": "10.99",
+              "installments": 1,
+              "gateway_message": "Aprovada",
+              "gateway_response_code": null,
+              "gateway_authorization": "1198638",
+              "gateway_transaction_id": "4418fd0b-b9e6-419a-8d04-5b498992f93f",
+              "gateway_response_fields": {
+                "qrcode_path": "https://d3qiiqeqvrl56p.cloudfront.net/sandbox/2024/07/16/itau/N101231761_qrcode.svg",
+                "qrcode_original_path": "00020101021126950014BR.GOV.BCB.PIX2573spi.dev.cloud.itau.com.br/documentos/198e49c5-2330-4ad7-9d0b-967c7b5371225204000053039865802BR5923PMD Gotham NegA cios ME6009SAO PAULO62410503***50300017BR.GOV.BCB.BRCODE01051.0.063040866",
+                "print_url": "https://intermediador-sandbox.yapay.com.br/orders/pix/d89e9bc2fb3913fe9290d5303c6f52a8",
+                "token_transaction": "d89e9bc2fb3913fe9290d5303c6f52a8",
+                "transaction_id": 1198638,
+                "max_days_to_keep_waiting_payment": "2024-07-16T16:06:08",
+                "price_original": "10.99",
+                "price_payment": "10.99",
+                "payment_response": "Pagamento Manual. Administrador: CARTAO",
+                "url_payment": "https://intermediador-sandbox.yapay.com.br/orders/pix/d89e9bc2fb3913fe9290d5303c6f52a8",
+                "tid": "93314",
+                "split": 1,
+                "payment_method_id": 27,
+                "payment_method_name": "Pix",
+                "date_payment": 1721098800,
+                "date_approval": 1721098800,
+                "paid_amount": "10.99",
+                "payment_date": "2024-07-16"
+              },
+              "fraud_detector_score": null,
+              "fraud_detector_status": null,
+              "fraud_detector_id": null,
+              "created_at": "2024-07-16T16:04:06.000-03:00",
+              "gateway": {
+                "id": 5574,
+                "connector": "yapay"
+              },
+              "payment_profile": null
+            },
+            "payment_method": {
+              "id": 10485,
+              "public_name": "Pix",
+              "name": "Pix vp",
+              "code": "pix",
+              "type": "PaymentMethod::Pix"
+            }
+          }
+        ],
+        "bill_affiliates": [],
+        "customer": {
+          "id": 1709359,
+          "name": "NOME DO CLIENTE",
+          "email": "NOMEDOCLIENTE@EMAIL.COM",
+          "code": null
+        },
+        "period": null,
+        "subscription": null,
+        "metadata": {},
+        "payment_profile": null,
+        "payment_condition": null
+      }
+    }
+  }
+}
