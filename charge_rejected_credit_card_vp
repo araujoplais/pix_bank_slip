@@ -1,0 +1,88 @@
+{
+    "event": {
+        "type": "charge_rejected",
+        "created_at": "2024-08-19T11:57:11.000-03:00",
+        "data": {
+            "charge": {
+                "id": 319554000,
+                "amount": "27.9",
+                "status": "pending",
+                "due_at": "2024-08-11T23:59:59.000-03:00",
+                "paid_at": null,
+                "installments": 1,
+                "attempt_count": 5,
+                "next_attempt": null,
+                "print_url": null,
+                "created_at": "2024-08-07T09:05:18.000-03:00",
+                "updated_at": "2024-08-19T11:57:11.000-03:00",
+                "last_transaction": {
+                    "id": 596679000,
+                    "transaction_type": "charge",
+                    "status": "rejected",
+                    "amount": "27.9",
+                    "installments": 1,
+                    "gateway_message": "Transação não processada. LIFE CYCLE (MASTERCARD USE ONLY).",
+                    "gateway_response_code": "79",
+                    "gateway_authorization": "",
+                    "gateway_transaction_id": "2a33bf0d-3f85-4bee-8e02-33916c55c000",
+                    "gateway_response_fields": {
+                        "price_payment": "27.9",
+                        "payment_response": "Transação não processada. LIFE CYCLE (MASTERCARD USE ONLY).",
+                        "split": 1,
+                        "payment_method_name": "Mastercard",
+                        "token_transaction": "d3f932e6fa91920b66cfdf03b302d000",
+                        "transaction_id": 169446000
+                    },
+                    "fraud_detector_score": null,
+                    "fraud_detector_status": null,
+                    "fraud_detector_id": null,
+                    "created_at": "2024-08-19T11:57:09.000-03:00",
+                    "gateway": {
+                        "id": 76000,
+                        "connector": "yapay"
+                    },
+                    "payment_profile": {
+                        "id": 84560000,
+                        "holder_name": "cliente x",
+                        "registry_code": null,
+                        "bank_branch": null,
+                        "bank_account": null,
+                        "card_expiration": "2030-09-30T23:59:59.000-03:00",
+                        "allow_as_fallback": null,
+                        "card_number_first_six": "553000",
+                        "card_number_last_four": "7000",
+                        "renewed_card": {
+                            "card_number_last_four": null,
+                            "card_expiration": null
+                        },
+                        "card_renewed_at": null,
+                        "token": "b87dd9d2-2875-4c87-998f-319ce96d2000",
+                        "created_at": "2023-08-01T16:49:23.000-03:00",
+                        "payment_company": {
+                            "id": 1,
+                            "name": "MasterCard",
+                            "code": "mastercard"
+                        }
+                    }
+                },
+                "payment_method": {
+                    "id": 76000,
+                    "public_name": "Cartão de crédito",
+                    "name": "Cartão de crédito Recorrente",
+                    "code": "credit_card_rec",
+                    "type": "PaymentMethod::CreditCard"
+                },
+                "bill": {
+                    "id": 306035000,
+                    "code": "a0Q0700002Uv7OyEAJ"
+                },
+                "customer": {
+                    "id": 69364000,
+                    "name": "cliente xxx",
+                    "email": "clientexxx@gmail.com",
+                    "code": "0010700000Zs7bpAAB"
+                }
+            }
+        }
+    }
+}
