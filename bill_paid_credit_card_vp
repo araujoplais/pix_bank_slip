@@ -1,0 +1,153 @@
+{
+    "event": {
+        "type": "bill_paid",
+        "created_at": "2024-08-19T19:16:34.000-03:00",
+        "data": {
+            "bill": {
+                "id": 30942000,
+                "code": "a1PTY0000011yPl2AI",
+                "amount": "39.5",
+                "installments": 1,
+                "status": "paid",
+                "seen_at": "2024-08-19T19:13:58.000-03:00",
+                "billing_at": "2024-08-19T00:00:00.000-03:00",
+                "due_at": "2024-09-03T23:59:59.000-03:00",
+                "url": "https://app.vindi.com.br/customer/bills/309420308?token=32501b82-ecac-4dd7-bdcd-03b60eaa6000",
+                "created_at": "2024-08-19T19:13:09.000-03:00",
+                "updated_at": "2024-08-19T19:16:34.000-03:00",
+                "bill_items": [
+                    {
+                        "id": 385421000,
+                        "amount": "39.5",
+                        "quantity": 1,
+                        "pricing_range_id": null,
+                        "description": "produto serviço x",
+                        "pricing_schema": {
+                            "id": 46832000,
+                            "short_format": "R$ 39,50",
+                            "price": "39.5",
+                            "minimum_price": null,
+                            "schema_type": "flat",
+                            "pricing_ranges": [],
+                            "created_at": "2024-08-19T19:13:09.000-03:00"
+                        },
+                        "product": {
+                            "id": 1344000,
+                            "name": "Pacote de serviços x",
+                            "code": null
+                        },
+                        "product_item": null,
+                        "discount": null
+                    }
+                ],
+                "charges": [
+                    {
+                        "id": 322942000,
+                        "amount": "39.5",
+                        "status": "paid",
+                        "due_at": "2024-09-03T23:59:59.000-03:00",
+                        "paid_at": "2024-08-19T19:16:34.000-03:00",
+                        "installments": 1,
+                        "attempt_count": 1,
+                        "next_attempt": null,
+                        "print_url": null,
+                        "created_at": "2024-08-19T19:13:09.000-03:00",
+                        "updated_at": "2024-08-19T19:16:34.000-03:00",
+                        "last_transaction": {
+                            "id": 596771000,
+                            "transaction_type": "charge",
+                            "status": "success",
+                            "amount": "39.5",
+                            "installments": 1,
+                            "gateway_message": "Aprovada",
+                            "gateway_response_code": "R77000",
+                            "gateway_authorization": "169502000",
+                            "gateway_transaction_id": "133399cd-5dff-4138-96fa-d2bd00d6b00c",
+                            "gateway_response_fields": {
+                                "price_payment": "39.5",
+                                "payment_response": "Success.",
+                                "tid": "11132408191915401000",
+                                "split": 1,
+                                "payment_method_name": "Mastercard",
+                                "token_transaction": "1262938909642d001f8a405e93d0d000",
+                                "transaction_id": 169502000
+                            },
+                            "fraud_detector_score": null,
+                            "fraud_detector_status": null,
+                            "fraud_detector_id": null,
+                            "created_at": "2024-08-19T19:16:29.000-03:00",
+                            "gateway": {
+                                "id": 76000,
+                                "connector": "yapay"
+                            },
+                            "payment_profile": {
+                                "id": 106278000,
+                                "holder_name": "portador x",
+                                "registry_code": null,
+                                "bank_branch": null,
+                                "bank_account": null,
+                                "card_expiration": "2028-08-31T23:59:59.000-03:00",
+                                "allow_as_fallback": null,
+                                "card_number_first_six": "532000",
+                                "card_number_last_four": "9000",
+                                "renewed_card": {
+                                    "card_number_last_four": null,
+                                    "card_expiration": null
+                                },
+                                "card_renewed_at": null,
+                                "token": "e837b0bb-b826-4635-936c-d113eccef000",
+                                "created_at": "2024-08-19T19:16:29.000-03:00",
+                                "payment_company": {
+                                    "id": 1,
+                                    "name": "MasterCard",
+                                    "code": "mastercard"
+                                }
+                            }
+                        },
+                        "payment_method": {
+                            "id": 75000,
+                            "public_name": "Cartão de crédito",
+                            "name": "Cartão de crédito",
+                            "code": "credit_card",
+                            "type": "PaymentMethod::CreditCard"
+                        }
+                    }
+                ],
+                "bill_affiliates": [],
+                "customer": {
+                    "id": 69367000,
+                    "name": "cliente x",
+                    "email": "clientexxx@gmail.com",
+                    "code": "0015800001SJRq5AAH"
+                },
+                "period": null,
+                "subscription": null,
+                "metadata": {},
+                "payment_profile": {
+                    "id": 106278000,
+                    "holder_name": "portador x",
+                    "registry_code": null,
+                    "bank_branch": null,
+                    "bank_account": null,
+                    "card_expiration": "2028-08-31T23:59:59.000-03:00",
+                    "allow_as_fallback": null,
+                    "card_number_first_six": "532000",
+                    "card_number_last_four": "9000",
+                    "renewed_card": {
+                        "card_number_last_four": null,
+                        "card_expiration": null
+                    },
+                    "card_renewed_at": null,
+                    "token": "e837b0bb-b826-4635-936c-d113eccefacc",
+                    "created_at": "2024-08-19T19:16:29.000-03:00",
+                    "payment_company": {
+                        "id": 1,
+                        "name": "MasterCard",
+                        "code": "mastercard"
+                    }
+                },
+                "payment_condition": null
+            }
+        }
+    }
+}
